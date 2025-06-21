@@ -47,9 +47,9 @@ const techs = [
 
 const Tech = () => {
 return (
-    <div id="tech" className="w-full py-21 bg-[#0B1D51]">
+    <div id="tech" className="w-full py-21 bg-[#0B1D51] font-['Roboto',sans-serif]">
         <h2 className="text-3xl font-bold text-white text-center mb-7">Technologies</h2>
-        <div className="grid grid-cols-1 cursor-pointer sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 px-4 max-w-6xl mx-auto">
+        <div className="font-['Roboto',sans-serif] grid grid-cols-1 cursor-pointer sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 px-4 max-w-6xl mx-auto">
             {techs.map((tech, idx) => (
                 <div
                     key={idx}

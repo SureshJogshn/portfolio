@@ -42,9 +42,9 @@ const aitools = [
 
 const Aitools = () => {
     return (
-        <div id="ai" className="w-full py-30 bg-gray-50">
+        <div id="ai" className="w-full py-30 bg-gray-50 font-['Roboto',sans-serif]">
             <h2 className="text-3xl font-bold text-center mb-8">AI Tools</h2>
-            <div className="flex overflow-x-auto space-x-6 px-4 cursor-pointer">
+            <div className="flex overflow-x-auto space-x-6 px-4 cursor-pointer font-['Roboto',sans-serif]">
                 {aitools.map((tool, idx) => (
                     <div
                         key={idx}

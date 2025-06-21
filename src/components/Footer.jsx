@@ -1,16 +1,10 @@
 import React from 'react';
 
 const Footer = () => (
-    <footer id="footer" style={{
-        background: '#222',
-        color: '#fff',
-        textAlign: 'center',
-        padding: '1rem 0',
-        position: 'fixed',
-        left: 0,
-        bottom: 0,
-        width: '100%',
-    }}>
+    <footer
+        id="footer"
+        className="bg-gray-900 text-white font-['Roboto',sans-serif] text-center py-4 fixed left-0 bottom-0 w-full font-sans"
+    >
         <p>&copy; {new Date().getFullYear()} My Portfolio. All rights reserved.</p>
     </footer>
 );

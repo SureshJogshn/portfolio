@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => { 
     return (
-        <section id="home" className="py-40 bg-[#0B1D51] min-h-[100vh]">
+        <section id="home" className="py-40 bg-[#0B1D51] min-h-[100vh] font-['Roboto',sans-serif]">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-25 px-4">
                 {/* Left Side - Image */}
                 <div className="flex-shrink-0 mb-8 md:mb-0">
@@ -18,7 +18,7 @@ const Hero = () => {
                     />
                 </div>
                 {/* Right Side - Content */}
-                <div className="text-center md:text-left w-125">
+                <div className="text-center md:text-left w-125 font-['Roboto',sans-serif]">
                     <h3 className="text-4xl md:text-2xl font-bold text-white">Hello, I'm</h3>
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-1">Suresh Kumar</h1>
                     <TypeAnimation
@@ -56,7 +56,7 @@ const Hero = () => {
                         </a>
 
                     </div>
-                    <div className="flex justify-center md:justify-start gap-4">
+                    <div className="flex justify-center md:justify-start gap-4 font-['Roboto',sans-serif] ">
                         <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded shadow transition">Hire Me</button>
                         <a
                             href={resume}

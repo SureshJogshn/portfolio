@@ -7,17 +7,16 @@ const navLinks = [
     { name: "Ai", href: "#ai" },
     { name: "About", href: "#about" },
 ];
-
 export default function Header() {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="fixed w-full z-50 bg-[#0B1D51] shadow-sm">
+        <header className="fixed w-full z-50 bg-[#0B1D51] shadow-sm font-['Roboto',sans-serif]">
             <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
                 <div className="text-2xl font-bold tracking-widest animate-pulse">
                     <h1 className="text-white">Port<span className="text-[#4E71FF]">folio</span></h1>
                 </div>
-                <div className="hidden md:flex space-x-8">
+                <div className="hidden md:flex space-x-8 font-['Roboto',sans-serif]">
                     {navLinks.map((link) => (
                         <a
                             key={link.name}

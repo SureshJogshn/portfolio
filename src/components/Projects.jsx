@@ -40,9 +40,9 @@ const projects = [
 ];
 
 const Projects = () => (
-    <div id="projects" className="py-20 px-4 max-w-5xl mx-auto">
+    <div id="projects" className="py-20 px-4 max-w-5xl mx-auto font-['Roboto',sans-serif]">
         <h2 className="text-3xl font-bold mb-5 text-center">My Projects</h2>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 cursor-pointer">
+        <div className="font-['Roboto',sans-serif] grid gap-6 md:grid-cols-2 lg:grid-cols-3 cursor-pointer">
             {projects.map((project, idx) => (
                 <div 
                     key={idx}
